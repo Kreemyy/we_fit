@@ -152,6 +152,45 @@ header .navbar {
   align-self: flex-end;
   margin-right: 50px;
 }
+
+/* CTA section */
+
+.cta {
+  padding: 50px 0;
+}
+
+.cta .container {
+  background: #3882f6;
+  color: #fff;
+  padding: 30px 60px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 6px;
+}
+
+.cta .cta-texts {
+  max-width: 550px;
+}
+
+.cta h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.cta span {
+  line-height: 1.6;
+}
+
+.cta .btn {
+  padding: 8px 24px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #3882f6;
+  border: 2px solid #fff;
+  align-self: flex-end;
+  margin-right: 40px;
+}
+
 .container {
   max-width: 1100px;
   margin: 0 auto;
