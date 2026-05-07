@@ -122,6 +122,36 @@ header .navbar {
   border-radius: 10px;
 }
 
+/* Testimonial */
+
+.testimonial {
+  background-color: #e5e7eb;
+  padding: 50px 0;
+}
+
+.testimonial .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 68px;
+}
+
+.testimonial .quote {
+  font-size: 36px;
+  font-weight: 300px;
+  font-style: italic;
+  color: #11161e;
+}
+
+.testimonial span {
+  font-size: 32px;
+  color: #11161e;
+  font-weight: 700;
+  align-self: flex-end;
+  margin-right: 50px;
+}
 .container {
   max-width: 1100px;
   margin: 0 auto;
