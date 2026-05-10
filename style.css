@@ -7,6 +7,8 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #fff;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -87,6 +89,7 @@ header .navbar {
 .products-section {
   padding: 40px 0;
   color: #000;
+  flex: 1;
 }
 
 .products-section .container {
@@ -127,6 +130,7 @@ header .navbar {
 .testimonial {
   background-color: #e5e7eb;
   padding: 50px 0;
+  flex: 1;
 }
 
 .testimonial .container {
